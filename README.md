@@ -1,12 +1,15 @@
 # Advertisement Click Prediction using Spark ML
 
 **Introduction:**
+
 In the digital advertising industry, understanding and predicting user behavior is crucial for optimizing ad campaigns and maximizing return on investment. Accurately predicting whether a user will click on an advertisement can help marketers tailor their strategies, improve targeting, and enhance overall campaign performance. This project aims to leverage Spark ML, a robust machine learning library for big data, to develop model that predicts the likelihood of advertisement clicks based on user and ad-related features.
 
 **Problem Statement:**
+
 The objective of this project is to build a machine learning model using Spark ML to predict whether a user will click on an advertisement. By analyzing features such as user demographics, browsing behavior, ad characteristics, and contextual information, the model will learn to identify patterns and factors that influence click behavior.
 
 **Dataset:**
+
 In this project, we have divided the dataset into 3 different parts:
    * **`TRAIN`** - It has 1400000 Rows which will be used to train the model.
    * **`VALIDATION`** - It has 350000 Rows which will be used to evaluate the model.
