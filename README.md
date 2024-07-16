@@ -17,20 +17,21 @@ In this project, we have divided the dataset into 3 different parts:
 
    Each of the datasets has the following columns
 
- * **`ID`**:   Unique ID of the Click
- * **`Country`**:   Country Code
- * **`Carrier`**:   Wireless Network Operator Code
- * **`TrafficType`**:  Whether the advertisement is for Adults or mainstream.
- * **`ClickDate`**:  Date at which the advertisement was clicked
- * **`Device`**:  Type of Device from which advertisement was clicked
- * **`Browser`**:  Type of Browser from which advertisement was clicked
- * **`OS`**:  Type of OS from which advertisement was clicked
- * **`publisherID`**:  Unique ID of publisher
- * **`advertiserCampaignId`**: Unique ID of campaign of advertisement
- * **`Fraud`**:  If the click was fraud or not
- * **`ConversionStatus`**:  If the click was fraud or not  ( **`Target Variable`** )
+ * `ID`:   Unique ID of the Click
+ * `Country`:   Country Code
+ * `Carrier':   Wireless Network Operator Code
+ * `TrafficType`:  Whether the advertisement is for Adults or mainstream.
+ * `ClickDate`:  Date at which the advertisement was clicked
+ * `Device`:  Type of Device from which advertisement was clicked
+ * `Browser`:  Type of Browser from which advertisement was clicked
+ * `OS`:  Type of OS from which advertisement was clicked
+ * `publisherID`:  Unique ID of publisher
+ * `advertiserCampaignId`: Unique ID of campaign of advertisement
+ * `Fraud`:  If the click was fraud or not
+ * `ConversionStatus`:  If the click was fraud or not  ( `Target Variable` )
 
 **Project Description:**
+
 • Conducted Exploratory Data Analysis (EDA) to analyze insights and patterns in the click prediction dataset.
 
 • Implemented Data Pre-Processing, Feature Encoding techniques, and Data Transformations to enhance the data prepared for the machine learning model.
